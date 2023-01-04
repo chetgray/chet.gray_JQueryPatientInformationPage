@@ -9,7 +9,6 @@ User Story #211907: JQuery: Patient Information Page
 >   information. The page should have:
 >   - [ ] Permanent Section - Heading, "General Patient Information"
 >     - [ ] Patient Name, Address, and Date of Birth
->     - [ ] Patient Address
 >     - [ ] Patient Primary Phone
 >   - [ ] Optional Section - show if the user clicks a box that says, "Patient has
 >     Primary Insurance." Heading - "Primary Insurance"
