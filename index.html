@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+
+<head>
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link href="styles/debug.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Patient Information</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h2>Patient Information</h2>
+        </header>
+        <form>
+            <fieldset>
+                <legend>General Patient Information</legend>
+                <label>Name <input name="patient-name" type="text" /></label>
+                <label>Address <input name="patient-address" type="text" /></label>
+                <label>Date of Birth <input name="patient-dob" type="text" /></label>
+                <label>Primary Phone <input name="patient-phone" type="text" /></label>
+            </fieldset>
+            <label><input name="has-primary-insurance" type="checkbox" /> Patient has primary
+                insurance</label>
+            <fieldset>
+                <legend>Primary Insurance</legend>
+                <label>Insurance Company <input name="primary-insurance-company"
+                           type="text" /></label>
+                <label>Plan ID <input name="primary-insurance-plan-id" type="text" /></label>
+                <label>Group Code <input name="primary-insurance-group-code" type="text" /></label>
+            </fieldset>
+            <label><input name="has-secondary-insurance" type="checkbox" />Patient has secondary
+                insurance</label>
+            <fieldset>
+                <legend>Secondary Insurance</legend>
+                <label>Insurance Company <input name="secondary-insurance-company"
+                           type="text" /></label>
+                <label>Plan ID <input name="secondary-insurance-plan-id" type="text" /></label>
+                <label>Group Code <input name="secondary-insurance-group-code"
+                           type="text" /></label>
+            </fieldset>
+            <label><input name="has-text-alerts" type="checkbox" />Patient opts-in for text
+                alerts</label>
+            <fieldset>
+                <legend>Text Alert Information</legend>
+                <label>Mobile Number <input name="mobile-number" type="text" /></label>
+                <label>Mobile Carrier <input name="mobile-carrier" type="text" /></label>
+                <p><strong>Data charges may apply.</strong></p>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

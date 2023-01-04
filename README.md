@@ -7,25 +7,25 @@ User Story #211907: JQuery: Patient Information Page
 > - [ ] Create a web page that uses JQuery to show and hide sections as appropriate.
 >   Your page's purpose is to allow a hospital administrator to enter a patient's
 >   information. The page should have:
->   - [ ] Permanent Section - Heading, "General Patient Information"
->     - [ ] Patient Name, Address, and Date of Birth
->     - [ ] Patient Primary Phone
+>   - [x] Permanent Section - Heading, "General Patient Information"
+>     - [x] Patient Name, Address, and Date of Birth
+>     - [x] Patient Primary Phone
 >   - [ ] Optional Section - show if the user clicks a box that says, "Patient has
 >     Primary Insurance." Heading - "Primary Insurance"
->     - [ ] Insurance Company
->     - [ ] Plan ID
->     - [ ] Group Code
+>     - [x] Insurance Company
+>     - [x] Plan ID
+>     - [x] Group Code
 >   - [ ] Optional Section - show if the user clicks a box that says, "Patient has
 >     Secondary Insurance." Heading - "Secondary Insurance"
->     - [ ] Insurance Company
->     - [ ] Plan ID
->     - [ ] Group Code
+>     - [x] Insurance Company
+>     - [x] Plan ID
+>     - [x] Group Code
 >   - [ ] Optional Section - show if the user clicks a box that says, "Patient opts-in
 >     for text alerts." Heading - "Text Alert Information"
->     - [ ] Mobile Number
->     - [ ] Mobile Carrier
->     - [ ] A note that "Data charges may apply."
->   - [ ] A Submit button
+>     - [x] Mobile Number
+>     - [x] Mobile Carrier
+>     - [x] A note that "Data charges may apply."
+>   - [x] A Submit button
 >   - [ ] When the Submit button is clicked, send an alert pop-up that says,
 >     "Information for (Patient Name) submitted successfully." Clear all the fields to
 >     get ready for the next entry. Uncheck all the checkboxes. Hide all the stuff that
