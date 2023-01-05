@@ -1,7 +1,5 @@
 $(function () {
-    $("#primary-insurance-info").hide();
-    $("#secondary-insurance-info").hide();
-    $("#text-alert-info").hide();
+    $(".form__optional-section").hide();
 
     // toggle primary insurance section based on checkbox
     $("#has-primary-insurance").on("change", function () {
