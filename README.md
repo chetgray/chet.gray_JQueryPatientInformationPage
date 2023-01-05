@@ -30,6 +30,6 @@ User Story #211907: JQuery: Patient Information Page
 >     "Information for (Patient Name) submitted successfully." Clear all the fields to
 >     get ready for the next entry. Uncheck all the checkboxes. Hide all the stuff that
 >     should be hidden.
->   - [ ] Important thing to consider: A patient cannot have Secondary Insurance unless
+>   - [x] Important thing to consider: A patient cannot have Secondary Insurance unless
 >     they have Primary Insurance. So if the user has checked both, and they uncheck
 >     Primary, you need to hide Secondary as well. Fun!
