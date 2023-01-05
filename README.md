@@ -10,17 +10,17 @@ User Story #211907: JQuery: Patient Information Page
 >   - [x] Permanent Section - Heading, "General Patient Information"
 >     - [x] Patient Name, Address, and Date of Birth
 >     - [x] Patient Primary Phone
->   - [ ] Optional Section - show if the user clicks a box that says, "Patient has
+>   - [x] Optional Section - show if the user clicks a box that says, "Patient has
 >     Primary Insurance." Heading - "Primary Insurance"
 >     - [x] Insurance Company
 >     - [x] Plan ID
 >     - [x] Group Code
->   - [ ] Optional Section - show if the user clicks a box that says, "Patient has
+>   - [x] Optional Section - show if the user clicks a box that says, "Patient has
 >     Secondary Insurance." Heading - "Secondary Insurance"
 >     - [x] Insurance Company
 >     - [x] Plan ID
 >     - [x] Group Code
->   - [ ] Optional Section - show if the user clicks a box that says, "Patient opts-in
+>   - [x] Optional Section - show if the user clicks a box that says, "Patient opts-in
 >     for text alerts." Heading - "Text Alert Information"
 >     - [x] Mobile Number
 >     - [x] Mobile Carrier

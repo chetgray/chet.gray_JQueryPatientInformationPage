@@ -23,18 +23,18 @@
                 <label>Date of Birth <input name="patient-dob" type="text" /></label>
                 <label>Primary Phone <input name="patient-phone" type="text" /></label>
             </fieldset>
-            <label><input name="has-primary-insurance" type="checkbox" /> Patient has primary
-                insurance</label>
-            <fieldset>
+            <label><input id="has-primary-insurance" name="has-primary-insurance" type="checkbox" />
+                Patient has primary insurance</label>
+            <fieldset id="primary-insurance-info">
                 <legend>Primary Insurance</legend>
                 <label>Insurance Company <input name="primary-insurance-company"
                            type="text" /></label>
                 <label>Plan ID <input name="primary-insurance-plan-id" type="text" /></label>
                 <label>Group Code <input name="primary-insurance-group-code" type="text" /></label>
             </fieldset>
-            <label><input name="has-secondary-insurance" type="checkbox" />Patient has secondary
-                insurance</label>
-            <fieldset>
+            <label><input id="has-secondary-insurance" name="has-secondary-insurance"
+                       type="checkbox" /> Patient has secondary insurance</label>
+            <fieldset id="secondary-insurance-info">
                 <legend>Secondary Insurance</legend>
                 <label>Insurance Company <input name="secondary-insurance-company"
                            type="text" /></label>
@@ -42,9 +42,9 @@
                 <label>Group Code <input name="secondary-insurance-group-code"
                            type="text" /></label>
             </fieldset>
-            <label><input name="has-text-alerts" type="checkbox" />Patient opts-in for text
-                alerts</label>
-            <fieldset>
+            <label><input id="has-text-alert" name="has-text-alert" type="checkbox" /> Patient
+                opts-in for text alerts</label>
+            <fieldset id="text-alert-info">
                 <legend>Text Alert Information</legend>
                 <label>Mobile Number <input name="mobile-number" type="text" /></label>
                 <label>Mobile Carrier <input name="mobile-carrier" type="text" /></label>
@@ -53,6 +53,8 @@
             <button type="submit">Submit</button>
         </form>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
