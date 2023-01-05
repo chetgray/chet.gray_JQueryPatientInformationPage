@@ -24,8 +24,9 @@
                 <label>Date of Birth <input name="patient-dob" type="text" /></label>
                 <label>Primary Phone <input name="patient-phone" type="text" /></label>
             </fieldset>
-            <label><input id="has-primary-insurance" name="has-primary-insurance" type="checkbox" />
-                Patient has primary insurance</label>
+            <label><input class="form__optional-section-toggle" id="has-primary-insurance"
+                       name="has-primary-insurance" data-for="#primary-insurance-info"
+                       type="checkbox" /> Patient has primary insurance</label>
             <fieldset class="form__optional-section form__optional-section--hidden"
                       id="primary-insurance-info">
                 <legend>Primary Insurance</legend>
@@ -34,7 +35,8 @@
                 <label>Plan ID <input name="primary-insurance-plan-id" type="text" /></label>
                 <label>Group Code <input name="primary-insurance-group-code" type="text" /></label>
             </fieldset>
-            <label><input id="has-secondary-insurance" name="has-secondary-insurance"
+            <label><input class="form__optional-section-toggle" id="has-secondary-insurance"
+                       name="has-secondary-insurance" data-for="#secondary-insurance-info"
                        type="checkbox" /> Patient has secondary insurance</label>
             <fieldset class="form__optional-section form__optional-section--hidden"
                       id="secondary-insurance-info">
@@ -45,7 +47,8 @@
                 <label>Group Code <input name="secondary-insurance-group-code"
                            type="text" /></label>
             </fieldset>
-            <label><input id="has-text-alert" name="has-text-alert" type="checkbox" /> Patient
+            <label><input class="form__optional-section-toggle" id="has-text-alert"
+                       name="has-text-alert" data-for="#text-alert-info" type="checkbox" /> Patient
                 opts-in for text alerts</label>
             <fieldset class="form__optional-section form__optional-section--hidden"
                       id="text-alert-info">

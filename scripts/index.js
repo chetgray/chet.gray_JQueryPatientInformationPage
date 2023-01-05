@@ -1,16 +1,6 @@
 $(function () {
-    // toggle primary insurance section based on checkbox
-    $("#has-primary-insurance").on("change", function () {
-        $("#primary-insurance-info").toggleClass("form__optional-section--hidden");
-    });
-
-    // toggle secondary insurance section based on checkbox
-    $("#has-secondary-insurance").on("change", function () {
-        $("#secondary-insurance-info").toggleClass("form__optional-section--hidden");
-    });
-
-    // toggle text alert section based on checkbox
-    $("#has-text-alert").on("change", function () {
-        $("#text-alert-info").toggleClass("form__optional-section--hidden");
+    // When a toggle checkbox is changed, show or hide the corresponding "data-for" section
+    $(".form__optional-section-toggle").on("change", function () {
+        $(this.dataset["for"]).toggleClass("form__optional-section--hidden", !this.checked);
     });
 });
