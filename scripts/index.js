@@ -1,6 +1,4 @@
 $(function () {
-    $(".form__optional-section").addClass("form__optional-section--hidden");
-
     // toggle primary insurance section based on checkbox
     $("#has-primary-insurance").on("change", function () {
         $("#primary-insurance-info").toggleClass("form__optional-section--hidden");
