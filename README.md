@@ -4,7 +4,7 @@ JQueryPatientInformationPage
 User Story #211907: JQuery: Patient Information Page
 ----------------------------------------------------
 
-> - [ ] Create a web page that uses JQuery to show and hide sections as appropriate.
+> - [x] Create a web page that uses JQuery to show and hide sections as appropriate.
 >   Your page's purpose is to allow a hospital administrator to enter a patient's
 >   information. The page should have:
 >   - [x] Permanent Section - Heading, "General Patient Information"
@@ -26,7 +26,7 @@ User Story #211907: JQuery: Patient Information Page
 >     - [x] Mobile Carrier
 >     - [x] A note that "Data charges may apply."
 >   - [x] A Submit button
->   - [ ] When the Submit button is clicked, send an alert pop-up that says,
+>   - [x] When the Submit button is clicked, send an alert pop-up that says,
 >     "Information for (Patient Name) submitted successfully." Clear all the fields to
 >     get ready for the next entry. Uncheck all the checkboxes. Hide all the stuff that
 >     should be hidden.
