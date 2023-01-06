@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+
+<head>
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link href="styles/pico.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <!-- <link href="styles/debug.css" rel="stylesheet" /> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Patient Information</title>
+</head>
+
+<body>
+    <main class="container">
+        <article>
+            <header>
+                <h2>Patient Information</h2>
+            </header>
+            <form id="patient-info-form">
+                <fieldset>
+                    <legend>General Patient Information</legend>
+                    <label>Name <input name="patient-name" type="text" /></label>
+                    <label>Address <input name="patient-address" type="text" /></label>
+                    <label>Date of Birth <input name="patient-dob" type="date" /></label>
+                    <label>Primary Phone <input name="patient-phone" type="tel" /></label>
+                </fieldset>
+                <section>
+                    <label><input class="form__optional-section-toggle" id="has-primary-insurance"
+                               name="has-primary-insurance" data-for="#all-insurance-info"
+                               type="checkbox" role="switch" /> Patient has primary
+                        insurance</label>
+                    <div class="form__optional-section form__optional-section--hidden"
+                         id="all-insurance-info">
+                        <fieldset id="primary-insurance-info">
+                            <legend>Primary Insurance</legend>
+                            <label>Insurance Company <input name="primary-insurance-company"
+                                       type="text" /></label>
+                            <label>Plan ID <input name="primary-insurance-plan-id"
+                                       type="text" /></label>
+                            <label>Group Code <input name="primary-insurance-group-code"
+                                       type="text" /></label>
+                        </fieldset>
+                        <label><input class="form__optional-section-toggle"
+                                   id="has-secondary-insurance" name="has-secondary-insurance"
+                                   data-for="#secondary-insurance-info" type="checkbox"
+                                   role="switch" /> Patient has secondary insurance</label>
+                        <fieldset class="form__optional-section form__optional-section--hidden"
+                                  id="secondary-insurance-info">
+                            <legend>Secondary Insurance</legend>
+                            <label>Insurance Company <input name="secondary-insurance-company"
+                                       type="text" /></label>
+                            <label>Plan ID <input name="secondary-insurance-plan-id" type="text" />
+                            </label>
+                            <label>Group Code <input name="secondary-insurance-group-code"
+                                       type="text" />
+                            </label>
+                        </fieldset>
+                    </div>
+                </section>
+                <section>
+                    <label><input class="form__optional-section-toggle" id="has-text-alert"
+                               name="has-text-alert" data-for="#text-alert-info" type="checkbox"
+                               role="switch" /> Patient opts-in for text alerts</label>
+                    <fieldset class="form__optional-section form__optional-section--hidden"
+                              id="text-alert-info">
+                        <legend>Text Alert Information</legend>
+                        <label>Mobile Number <input name=mobile-number" type="tel" /></label>
+                        <label>Mobile Carrier <input name="mobile-carrier" type="text" /></label>
+                        <div class="note--warning">Data charges may apply.</div>
+                    </fieldset>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
