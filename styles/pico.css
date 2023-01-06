@@ -1144,8 +1144,8 @@ input:not([type=checkbox], [type=radio], [type=range]) {
 fieldset {
   margin: 0;
   margin-bottom: var(--spacing);
-  padding: 0;
-  border: 0;
+  /* padding: 0; */
+  /* border: 0; */
 }
 
 label,

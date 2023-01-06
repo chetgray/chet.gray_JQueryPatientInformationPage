@@ -1,3 +1,16 @@
+.note--warning {
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+    background-color: var(--mark-background-color);
+    color: var(--mark-color);
+}
+
+fieldset {
+    border: var(--border-width) solid var(--form-element-border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+}
+
 .form__optional-section--hidden {
     display: none;
 }
